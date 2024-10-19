@@ -112,7 +112,7 @@ main aside:nth-child(2) p {
 
 main article:nth-child(3) {
     margin-top: 0px;
-    margin-right: 10px;               <!--- Set as 10px so it looks like the goal design --->
+    margin-right: 10px;               /* Set as 10px so it looks like the goal design */
     padding: 5px;
     border-radius: 10px;
 }
@@ -122,7 +122,7 @@ main article:nth-child(3) p, main article:nth-child(3) h2 {
 }
 
 main article:nth-child(4) {
-    margin-top: 10px;                 <!--- Set as 10px so it looks like the goal design --->
+    margin-top: 10px;                 /* Set as 10px so it looks like the goal design */
     margin-right: 10px;
     padding: 5px;
     border-radius: 10px;
@@ -174,7 +174,7 @@ footer p {
 }
 
 
-<!--- GRID DISPLAY --->
+/* GRID DISPLAY */
 
 
 main {
