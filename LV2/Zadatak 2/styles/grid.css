@@ -76,6 +76,7 @@ nav ul li a:hover {
 
 main {
     margin: 10px;
+
     border-radius: 10px;
 }
 
@@ -112,7 +113,7 @@ main aside:nth-child(2) p {
 
 main article:nth-child(3) {
     margin-top: 0px;
-    margin-right: 10px;               /* Set as 10px so it looks like the goal design */
+    margin-right: 10px;
     padding: 5px;
     border-radius: 10px;
 }
@@ -122,7 +123,7 @@ main article:nth-child(3) p, main article:nth-child(3) h2 {
 }
 
 main article:nth-child(4) {
-    margin-top: 10px;                 /* Set as 10px so it looks like the goal design */
+    margin-top: 10px;
     margin-right: 10px;
     padding: 5px;
     border-radius: 10px;
@@ -173,7 +174,6 @@ footer p {
     text-align: left
 }
 
-
 /* Display: grid; */
 
 
@@ -182,8 +182,8 @@ main {
     grid-template-areas:
         "article1 aside1"
         "article2 aside2";
+    margin-bottom: -6px;
 }
-
 
 main article:nth-of-type(1) {
     grid-area: article1;
@@ -191,14 +191,18 @@ main article:nth-of-type(1) {
 
 main aside:nth-of-type(1) {
     grid-area: aside1;
+    height: 60%;
+    margin-bottom: 0;
 }
 
 main article:nth-of-type(2) {
     grid-area: article2;
+    height: 70%;
 }
 
 main aside:nth-of-type(2) {
     grid-area: aside2;
+    margin-top: -30px;
 }
 
 footer {
