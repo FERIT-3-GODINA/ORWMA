@@ -270,7 +270,7 @@ fun IconButton(
 @Composable
 fun Chip(
     text:String,
-    backgroundColor: Color = Color.White,
+    backgroundColor: Color = Color.White, //ili 'backgroundColor: Color = Color.LightGray,' jer buttoni su bijeli u predlosku, ali se ne vidi onda obrub 'Dessert'
     textColor: Color = Purple500,
 ){
     Box(
